@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Результаты анкеты</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Ваши данные</h1>
+        <div class="card mt-3">
+            <div class="card-body">
+                <h5 class="card-title">Имя: {{ name }}</h5>
+                <p class="card-text">Город: {{ city }}</p>
+                <p class="card-text">Хобби: {{ hobby }}</p>
+                <p class="card-text">Возраст: {{ age }}</p>
+                <a href="/" class="btn btn-primary">Назад</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
